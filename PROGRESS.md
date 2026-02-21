@@ -10,7 +10,7 @@
 - `.gitignore` added
 - View: building bullets list (T2), render with context (T3)
 - HTML template (`weather/templates/weather/weather.html`) (T4)
-- End-to-end testing (runserver + browser verification) (T5)
+- End-to-end testing (runserver + browser verification) (T5) (Fixed: API parameter formatting)
 
 ## In Progress
 

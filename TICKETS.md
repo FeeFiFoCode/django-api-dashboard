@@ -38,7 +38,7 @@ After parsing the API JSON:
 - Show `{{ fetched_at }}` timestamp at the bottom
 
 ## T5: End-to-end verification
-**Status:** Done
+**Status:** Done (Fixed: API parameter formatting in views.py)
 
 - Run `python manage.py runserver 8001`
 - Visit http://127.0.0.1:8001/weather/
