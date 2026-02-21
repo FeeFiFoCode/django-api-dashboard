@@ -46,6 +46,14 @@ Params: `latitude`, `longitude`, `current` (temperature_2m, wind_speed_10m), `da
 - Test URL: http://127.0.0.1:8001/weather/
 - Migration warnings are safe to ignore (no DB used)
 
+## Commit Style
+Use conventional commits: `type: short description`
+- `feat` — new functionality
+- `fix` — bug fix
+- `docs` — documentation only
+- `chore` — config, tooling, maintenance
+- `refactor` — code restructuring, no behavior change
+
 ## Stretch (only after core DoD is met)
 - 10-minute caching via Django cache framework, OR
 - Small form to choose city (no DB)

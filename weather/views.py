@@ -12,9 +12,14 @@ DEFAULT_PARAMS = {"latitude":41.8781,
 
 # Create your views here.
 def weather_page(request):
+    error = None
+    
     try:
         response = requests.get(API_URL, params=DEFAULT_PARAMS, timeout=10)
-    except:
-        pass
+        response.raise_for_status()
+        data = response.json()
+    except requests.exceptions.RequestException:
+        error = "Unable to connect to the weather service. Please try again later."
+        data = None
 
     return

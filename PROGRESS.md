@@ -6,9 +6,11 @@
 - App registered in `INSTALLED_APPS`
 - URL routing wired up (`/weather/` -> `weather_page` view)
 - API constants defined in `views.py` (URL, default params)
+- View: API call with error handling (T1)
+- `.gitignore` added
 
 ## In Progress
-- Implementing `weather_page` view logic (see TICKETS.md)
+- View: building bullets list (T2), render with context (T3)
 
 ## Not Started
 - HTML template (`weather/templates/weather/weather.html`)

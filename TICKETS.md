@@ -1,7 +1,7 @@
 # Tickets — Django Weather Dashboard
 
 ## T1: Implement view — API call and error handling
-**Status:** In Progress
+**Status:** Done
 **File:** `weather/views.py`
 
 Fill in `weather_page(request)`:
