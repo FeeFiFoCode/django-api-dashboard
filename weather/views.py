@@ -48,11 +48,11 @@ def weather_page(request):
         if precipitation is not None:
             bullets.append(f"Today's precipitation: {precipitation} mm")
 
-        context = {
-            "title" : "Chicago Weather",
-            "bullets": bullets,
-            "error": error,
-            "fetched_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        }
+    context = {
+        "title" : "Chicago Weather",
+        "bullets": bullets,
+        "error": error,
+        "fetched_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    }
 
     return render(request, "weather/weather.html", context)

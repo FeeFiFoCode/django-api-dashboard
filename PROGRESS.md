@@ -10,9 +10,9 @@
 - `.gitignore` added
 - View: building bullets list (T2), render with context (T3)
 - HTML template (`weather/templates/weather/weather.html`) (T4)
+- End-to-end testing (runserver + browser verification) (T5)
 
 ## In Progress
-- End-to-end testing (runserver + browser verification) (T5)
 
 ## Not Started
 - Stretch goals (caching or city picker)
