@@ -11,7 +11,7 @@ Fill in `weather_page(request)`:
 - On failure: set an `error` message string
 
 ## T2: Implement view — Build bullets list
-**Status:** In Progress
+**Status:** Done
 **File:** `weather/views.py`
 
 After parsing the API JSON:
@@ -21,7 +21,7 @@ After parsing the API JSON:
 - If API failed, set `bullets` to an empty list
 
 ## T3: Implement view — Render template with context
-**Status:** In Progress
+**Status:** Done
 **File:** `weather/views.py`
 
 - Build a context dict with `title`, `bullets`, `error`, `fetched_at`
@@ -29,7 +29,7 @@ After parsing the API JSON:
 - Return `render(request, "weather/weather.html", context)`
 
 ## T4: Create the HTML template
-**Status:** Not Started
+**Status:** Done
 **File:** `weather/templates/weather/weather.html`
 
 - Display `{{ title }}` as a heading
@@ -38,7 +38,7 @@ After parsing the API JSON:
 - Show `{{ fetched_at }}` timestamp at the bottom
 
 ## T5: End-to-end verification
-**Status:** Not Started
+**Status:** In Progress
 
 - Run `python manage.py runserver 8001`
 - Visit http://127.0.0.1:8001/weather/

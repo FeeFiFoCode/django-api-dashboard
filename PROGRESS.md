@@ -8,11 +8,11 @@
 - API constants defined in `views.py` (URL, default params)
 - View: API call with error handling (T1)
 - `.gitignore` added
+- View: building bullets list (T2), render with context (T3)
+- HTML template (`weather/templates/weather/weather.html`) (T4)
 
 ## In Progress
-- View: building bullets list (T2), render with context (T3)
+- End-to-end testing (runserver + browser verification) (T5)
 
 ## Not Started
-- HTML template (`weather/templates/weather/weather.html`)
-- End-to-end testing (runserver + browser verification)
 - Stretch goals (caching or city picker)
